@@ -1,5 +1,5 @@
 # MongoDB - Ein praktischer Einstieg #
-In diesem Repository findet Sie den Sourcecode in [Java](java/README.md) und [Ruby](ruby/README.md) sowie [Testdaten](data/README.md) zu den Programmierbeispielen aus meinen Buch
+In diesem Repository findet Sie den Sourcecode in [Java](java) und [Ruby](ruby	) sowie [Testdaten](data) zu den Programmierbeispielen aus meinen Buch
 ....
 
 ![MongoDB - Ein praktischer Einstieg](mongodb.png)

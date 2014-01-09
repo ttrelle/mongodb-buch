@@ -1,5 +1,5 @@
 # Ruby Beispiele #
-Hier finden Sie die Programmierbeispiele in Ruby aus dem Buch [MongoDB - Ein praktischer Einstieg](../README.md).
+Hier finden Sie die Programmierbeispiele in Ruby aus dem Buch [MongoDB - Ein praktischer Einstieg](../).
 
 Um die Beispiele auszuführen, müssen folgende Ruby Gems installiert werden:
 
