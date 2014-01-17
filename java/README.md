@@ -26,4 +26,5 @@ Ausführliche Beispiele zu Object/Document-Mappern, die im Buch leider nur kurz 
 - [Spring Data MongoDB](https://github.com/ttrelle/spring-data-examples/tree/master/springdata-mongodb)
 - [Morphia](https://github.com/ttrelle/morphia-mongodb-examples)
 - [Jongo](https://github.com/ttrelle/jongo-examples)
-- [Hibernate OGM](https://github.com/ttrelle/hibernate-ogm-examples)
+- [Eclipse Link for MongoDB](https://github.com/ttrelle/eclipselink-mongodb-examples)
+- [Hibernate OGM for MongoDB](https://github.com/ttrelle/hibernate-ogm-examples)
