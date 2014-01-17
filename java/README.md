@@ -18,3 +18,12 @@ Darüber hinaus benötigen Sie eine MongoDB-Instanz, die unter <code>localhost:2
 Ggfs. müssen Sie für einige Beispiele auch erst die [Testdaten](../data/README.md) importieren.
 
 Viel Spass beim Ausprobieren!
+
+## Object/Document-Mapper ##
+
+Ausführliche Beispiele zu Object/Document-Mappern, die im Buch leider nur kurz gestreift wurden, finden Sie in den folgenden Repositories:
+
+- [Spring Data MongoDB](https://github.com/ttrelle/spring-data-examples/tree/master/springdata-mongodb)
+- [Morphia](https://github.com/ttrelle/morphia-mongodb-examples)
+- [Jongo](https://github.com/ttrelle/jongo-examples)
+- [Hibernate OGM](https://github.com/ttrelle/hibernate-ogm-examples)
