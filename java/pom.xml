@@ -7,7 +7,7 @@
 	<version>1.0-SNAPSHOT</version>
 
 	<name>MongoDB Buch</name>
-	<url>https://github.com/codecentric/mongodb-buch</url>
+	<url>https://github.com/ttrelle/mongodb-buch</url>
 	<organization>
 		<name>codecentric AG</name>
 		<url>http://www.codecentric.de</url>
@@ -15,17 +15,13 @@
 
 	<developers>
 		<developer>
-			<name>Uwe Seiler</name>
-			<email>uwe.seiler@codecentric.de</email>
-		</developer>
-		<developer>
 			<name>Tobias Trelle</name>
 			<email>tobias.Trelle@codecentric.de</email>
 		</developer>
 	</developers>
 
 	<properties>
-		<mongo.driver.version>2.11.2</mongo.driver.version>
+		<mongo.driver.version>2.11.4</mongo.driver.version>
 		<jongo.version>0.4</jongo.version>
 	</properties>
 
