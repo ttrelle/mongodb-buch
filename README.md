@@ -6,8 +6,8 @@ In diesem Repository findet Sie den Sourcecode in [Java](java) und [Ruby](ruby	)
 
 **MongoDB - Ein praktischer Einstieg**<br/>
 Tobias Trelle<br/>
-[dpunkt.verlag](http://www.dpunkt.de), 2014<br/>
-ISBN XYZ
+[dpunkt.verlag](http://www.dpunkt.de/buecher/4194/mongodb.html), 2014<br/>
+ISBN: 3864901537 / 978-3864901539
 
 Viel Spass beim Ausprobieren!
 
