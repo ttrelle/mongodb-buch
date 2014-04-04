@@ -1,6 +1,8 @@
 package mongodb;
 
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.mongodb.AggregationOutput;
 import com.mongodb.BasicDBObject;
@@ -24,13 +26,14 @@ public class TwitterAggregation {
 		group.put("follower_count", new BasicDBObject("$max", "$user.followers_count"));
 		DBObject sort = new BasicDBObject("follower_count", -1);
 		
+		List<DBObject> pipeline = new ArrayList<DBObject>();
+		pipeline.add(new BasicDBObject("$match", match));
+		pipeline.add(new BasicDBObject("$group", group));
+		pipeline.add(new BasicDBObject("$sort",  sort));
+		pipeline.add(new BasicDBObject("$limit", 3));
+		
 		// Aggregation
-		AggregationOutput ao = collection.aggregate(
-				new BasicDBObject("$match", match),
-				new BasicDBObject("$group", group),
-				new BasicDBObject("$sort",  sort),
-				new BasicDBObject("$limit", 3)
-		);
+		AggregationOutput ao = collection.aggregate( pipeline );
 		for (DBObject doc: ao.results()) { 
 			System.out.println(doc); 
 		}

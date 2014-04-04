@@ -1,7 +1,9 @@
 package mongodb;
 
 import java.net.UnknownHostException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import com.mongodb.AggregationOutput;
 import com.mongodb.BasicDBObject;
@@ -31,12 +33,13 @@ public class Aggregate {
 		DBObject group = new BasicDBObject("_id", "$tags");
 		group.put("n", new BasicDBObject("$sum", 1));
 		
-		AggregationOutput ao = collection.aggregate(
-				new BasicDBObject("$project", projection),
-				new BasicDBObject("$unwind", "$tags"),
-				new BasicDBObject("$group", group),
-				new BasicDBObject("$sort", new BasicDBObject("n", -1) )
-		);
+		List<DBObject> pipeline = new ArrayList<DBObject>();
+		pipeline.add(new BasicDBObject("$project", projection));
+		pipeline.add(new BasicDBObject("$unwind", "$tags"));
+		pipeline.add(new BasicDBObject("$group", group));
+		pipeline.add(new BasicDBObject("$sort", new BasicDBObject("n", -1) ));
+		
+		AggregationOutput ao = collection.aggregate( pipeline );
 		for (DBObject doc: ao.results()) { 
 			System.out.println(doc); 
 		}

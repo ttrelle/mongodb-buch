@@ -21,7 +21,7 @@
 	</developers>
 
 	<properties>
-		<mongo.driver.version>2.11.4</mongo.driver.version>
+		<mongo.driver.version>2.12.0</mongo.driver.version>
 		<jongo.version>0.4</jongo.version>
 	</properties>
 
