@@ -2,7 +2,7 @@
 Hier können Sie die Test-Daten herunterladen, die im Buch häufig verwenden. Zum Entpacken der Dateien können sie z.B. das kostenlose Tool [7-Zip](http://www.7-zip.de) verwenden.
 
 ## Twitter-Datenbank ##
-In Kapitel 2 wird beschrieben, wie Sie eine Collection mit Tweets importieren. Die Daten können Sie als [gezippte BSON-Datei](tweets.zip) herunterladen, entpacken und danach importieren:
+In Kapitel 2 wird beschrieben, wie Sie eine Collection mit Tweets importieren. Die Daten können Sie als [gezippte BSON-Datei](tweets.zip?raw=true) herunterladen, entpacken und danach importieren:
     
     $ mongorestore -d twitter -c tweets /pfad/zu/tweets.bson 
 
