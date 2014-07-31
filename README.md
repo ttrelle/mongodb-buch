@@ -1,10 +1,10 @@
-# MongoDB - Der praktische Einstieg #
+# MongoDB: Der praktische Einstieg #
 In diesem Repository findet Sie den Sourcecode in [Java](java) und [Ruby](ruby	) sowie [Testdaten](data) zu den Programmierbeispielen aus meinen Buch
 ....
 
 ![MongoDB - Ein praktischer Einstieg](mongodb.png)
 
-**MongoDB - Der praktische Einstieg**<br/>
+**MongoDB: Der praktische Einstieg**<br/>
 Tobias Trelle<br/>
 [dpunkt.verlag](http://www.dpunkt.de/buecher/4194/mongodb.html), 2014<br/>
 ISBN: 3864901537 / 978-3864901539
