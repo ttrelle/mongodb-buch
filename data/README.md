@@ -11,3 +11,11 @@ Zur Illustration von Map/Reduce wird ein öffentlich zugänglicher Auszug auf de
 
     $ mongorestore -d enron_mail /pfad/zum/archiv/dump/enron_mail 
 
+## Points of Interest
+Mit diesem relativ kleinen Testdatensatz lassen sich bereits viele Queries und Index-Arten demonstrieren, u.a. auch Volltext- und Geodatensuchen. Zunächst wird die Ziel-Collection *pois* gelöscht und Indexe angelegt mit:
+
+	$ mongo test pois.js
+
+Anschließend kann der Import erfolgen:
+
+	$ mongoimport -d test --jsonArray pois.json
